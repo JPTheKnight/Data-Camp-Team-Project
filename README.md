@@ -38,7 +38,7 @@ conda activate ramp-env
 ### Challenge Description
 
 Get started with this RAMP challenge by exploring the provided
-[dedicated notebook](estimator.py), which walks through the dataset, preprocessing steps, and baseline model implementation.
+[dedicated notebook](submissions/starting_kit/estimator.py), which walks through the dataset, preprocessing steps, and baseline model implementation.
 
 ---
 
