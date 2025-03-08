@@ -53,7 +53,7 @@ submissions/my_submission
 To test a specific submission, use the `ramp-test` command:
 
 ```bash
-ramp-test --submission my_submission
+ramp-test --submission starting_kit
 ```
 
 For additional options and help, use:
