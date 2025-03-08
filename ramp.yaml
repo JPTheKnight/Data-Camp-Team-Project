@@ -1,0 +1,6 @@
+problem_name: "Predicting Legal Assistance Costs"
+event_name: "ramp_legal_assistance"
+data_dir: "data"
+submissions_dir: "submissions"
+workflow: "estimator"
+score_types: ["rmse"]

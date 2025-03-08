@@ -13,7 +13,6 @@ workflow = rw.workflows.Estimator()
 
 score_types = [
     rw.score_types.RMSE(name="rmse", precision=4),
-    rw.score_types.MAE(name="mae", precision=4),
 ]
 
 

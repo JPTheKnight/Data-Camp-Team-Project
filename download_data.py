@@ -32,8 +32,10 @@ def split_data():
         raise FileNotFoundError(f"Dataset not found at {DATA_FILE}. Please download it first.")
     
     print("Loading dataset...")
-    df = pd.read_csv(DATA_FILE, delimiter=',')
+    df = pd.read_csv(DATA_FILE, delimiter=';')
     
+    df.drop(["Date référence"], axis=1, inplace=True)
+
     print("Splitting dataset...")
     train_df, test_df = train_test_split(df, test_size=TEST_SIZE, random_state=42)
     
