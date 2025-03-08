@@ -3,8 +3,8 @@ import pandas as pd
 import rampwf as rw
 from sklearn.model_selection import StratifiedShuffleSplit
 
-problem_title = 'Credit Card Fraud Detection - a binary classification problem'
-_target_column_name = 'Class'
+problem_title = 'Predicting Legal Assistance Costs'
+_target_column_name = 'Montant total NDURINT'
 _ignore_column_names = []
 _prediction_label_names = [0, 1]
 

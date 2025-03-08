@@ -1,4 +1,4 @@
-name: REPLACE-NAME
+name: Predicting-Legal-Assistance-Costs
 channels:
   - conda-forge
 dependencies:
